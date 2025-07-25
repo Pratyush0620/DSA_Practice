@@ -5,4 +5,4 @@ public class Practice1 {
         String name="Pratyush Samantara";
         System.out.println(name);
     }
-}
+}  
