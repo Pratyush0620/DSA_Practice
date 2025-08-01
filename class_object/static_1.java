@@ -1,4 +1,4 @@
-package class_objects;
+package class_object;
 
 class Human{
     int age;

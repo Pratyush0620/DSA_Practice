@@ -1,4 +1,23 @@
-package class_objects;
+package class_object;
+
+class Singleton1{
+
+    private Singleton1(){
+
+    }
+
+    private static  Singleton1 instance;
+
+    public static Singleton1 getInstance(){
+
+        if(instance==null){
+            instance=new Singleton1();
+        }
+        
+        return instance;
+    }
+
+}
 
 class Student{
     int marks=90;
