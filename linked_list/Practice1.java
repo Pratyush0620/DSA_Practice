@@ -80,7 +80,7 @@ public class Practice1{
         }
         Node last=head;
         Node secondLast=head;
-        while(last.next!=null || last!=null){
+        while(last.next!=null){
             secondLast=secondLast.next;
             last=last.next.next;
         }
